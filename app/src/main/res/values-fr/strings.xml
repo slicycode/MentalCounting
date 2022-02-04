@@ -7,8 +7,6 @@
     <string name="scoring">Score</string>
 
     <!-- Play Activity -->
-    <string name="main_button">Retour à l\'accueil</string>
-    <string name="score_button">Aller aux scores</string>
     <string name="operation">Opération</string>
     <string name="success">Succès</string>
     <string name="failure">Échec</string>
@@ -21,5 +19,10 @@
     <string name="counter">Nombre d\'opérations</string>
     <string name="percentage">Pourcentage de réussite</string>
     <string name="previous_score">Dernière opération avec succès</string>
+
+    <!-- Menu -->
+    <string name="compute_menu_label">Les Scores</string>
+    <string name="reset_menu_label">Réinitialiser</string>
+    <string name="enterResponse">Entrer votre réponse</string>
 
 </resources>

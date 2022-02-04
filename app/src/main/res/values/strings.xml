@@ -1,13 +1,11 @@
 <resources>
-    <string name="app_name">MentalCounting</string>
+    <string name="app_name">Mental Counting</string>
 
     <!-- Main Activity -->
     <string name="play">Play</string>
     <string name="scoring">Scoring</string>
 
     <!-- Play Activity -->
-    <string name="main_button">Go to main</string>
-    <string name="score_button">Go to scoring</string>
     <string name="operation">operation</string>
     <string name="success">Success</string>
     <string name="failure">Failure</string>
@@ -21,5 +19,9 @@
     <string name="percentage">Percentage of success</string>
     <string name="previous_score">Last success</string>
 
+    <!-- Menu -->
+    <string name="compute_menu_label">Scoring</string>
+    <string name="reset_menu_label">Reset</string>
+    <string name="enterResponse">Enter your response</string>
 
 </resources>
