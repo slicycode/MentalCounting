@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calcul Mental</string>
+
+    <!-- Main Activity -->
+    <string name="play">Jouer</string>
+    <string name="scoring">Score</string>
+
+    <!-- Play Activity -->
+    <string name="main_button">Retour à l\'accueil</string>
+    <string name="operation">Opération</string>
+    <string name="success">Succès</string>
+    <string name="failure">Échec</string>
+    <string name="hint">Écrivez votre réponse ici</string>
+    <string name="validate_button">Valider</string>
+</resources>

@@ -1,5 +1,16 @@
 <resources>
     <string name="app_name">MentalCounting</string>
+
+    <!-- Main Activity -->
     <string name="play">Play</string>
     <string name="scoring">Scoring</string>
+
+    <!-- Play Activity -->
+    <string name="main_button">Go to main</string>
+    <string name="operation">operation</string>
+    <string name="success">Success</string>
+    <string name="failure">Failure</string>
+    <string name="hint">Write your response here</string>
+    <string name="validate_button">Validate</string>
+
 </resources>
