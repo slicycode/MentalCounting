@@ -7,10 +7,19 @@
 
     <!-- Play Activity -->
     <string name="main_button">Go to main</string>
+    <string name="score_button">Go to scoring</string>
     <string name="operation">operation</string>
     <string name="success">Success</string>
     <string name="failure">Failure</string>
     <string name="hint">Write your response here</string>
     <string name="validate_button">Validate</string>
+
+    <!-- Scoring Activity -->
+    <string name="clear_score">Clear Score</string>
+    <string name="previous_button">Previous Page</string>
+    <string name="counter">Number of operations</string>
+    <string name="percentage">Percentage of success</string>
+    <string name="previous_score">Last success</string>
+
 
 </resources>

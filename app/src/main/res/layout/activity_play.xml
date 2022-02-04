@@ -10,13 +10,29 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <Button
-            android:id="@+id/button2"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="20px"
-            android:layout_marginTop="20px"
-            android:text="@string/main_button" />
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/main_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="20px"
+                android:layout_marginTop="20px"
+                android:layout_weight="1"
+                android:text="@string/main_button" />
+
+            <Button
+                android:id="@+id/scoring_page_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="20px"
+                android:layout_marginTop="20px"
+                android:layout_weight="1"
+                android:text="@string/score_button" />
+        </LinearLayout>
 
         <TextView
             android:id="@+id/operation"
@@ -39,7 +55,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="@string/success"
-                android:textColor="#4CAF50" />
+                android:textColor="@color/green" />
 
             <TextView
                 android:id="@+id/failure"
@@ -48,7 +64,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="@string/failure"
-                android:textColor="#FF0000" />
+                android:textColor="@color/red" />
         </LinearLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -73,7 +89,7 @@
             android:paddingTop="20px">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/validate_button"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="40px"

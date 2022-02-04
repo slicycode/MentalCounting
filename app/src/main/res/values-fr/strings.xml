@@ -8,9 +8,18 @@
 
     <!-- Play Activity -->
     <string name="main_button">Retour à l\'accueil</string>
+    <string name="score_button">Aller aux scores</string>
     <string name="operation">Opération</string>
     <string name="success">Succès</string>
     <string name="failure">Échec</string>
     <string name="hint">Écrivez votre réponse ici</string>
     <string name="validate_button">Valider</string>
+
+    <!-- Scoring Activity -->
+    <string name="clear_score">Effacer les scores</string>
+    <string name="previous_button">Retour à la page précédente</string>
+    <string name="counter">Nombre d\'opérations</string>
+    <string name="percentage">Pourcentage de réussite</string>
+    <string name="previous_score">Dernière opération avec succès</string>
+
 </resources>

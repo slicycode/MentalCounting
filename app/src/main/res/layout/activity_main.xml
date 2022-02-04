@@ -20,7 +20,7 @@
             android:textAllCaps="true" />
 
         <Button
-            android:id="@+id/score"
+            android:id="@+id/scoring_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/scoring"
